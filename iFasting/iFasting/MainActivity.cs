@@ -1,6 +1,7 @@
 ﻿using Android.App;
 using Android.Widget;
 using Android.OS;
+using Android.Content;
 
 namespace iFasting
 {
@@ -13,6 +14,15 @@ namespace iFasting
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
+
+            var button1 = FindViewById<Button>(Resource.Id.button1);
+            button1.Click += (s, e) =>
+             {
+                 Intent nextActivity = new Intent(this, typeof(calendarActivity));
+                 StartActivity(nextActivity);
+
+             };
+
         }
     }
 }
