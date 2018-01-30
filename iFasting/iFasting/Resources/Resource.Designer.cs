@@ -28,6 +28,22 @@ namespace iFasting
 		{
 		}
 		
+		public partial class Array
+		{
+			
+			// aapt resource value: 0x7f040000
+			public const int dropdown_arrays = 2130968576;
+			
+			static Array()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Array()
+			{
+			}
+		}
+		
 		public partial class Attribute
 		{
 			
@@ -44,20 +60,32 @@ namespace iFasting
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f040003
-			public const int button1 = 2130968579;
+			// aapt resource value: 0x7f050003
+			public const int button1 = 2131034115;
 			
-			// aapt resource value: 0x7f040004
-			public const int button2 = 2130968580;
+			// aapt resource value: 0x7f050004
+			public const int button2 = 2131034116;
 			
-			// aapt resource value: 0x7f040001
-			public const int calendarView = 2130968577;
+			// aapt resource value: 0x7f050005
+			public const int button3 = 2131034117;
 			
-			// aapt resource value: 0x7f040002
-			public const int textDisplay = 2130968578;
+			// aapt resource value: 0x7f050001
+			public const int calendarView = 2131034113;
 			
-			// aapt resource value: 0x7f040000
-			public const int textView1 = 2130968576;
+			// aapt resource value: 0x7f050007
+			public const int spinner1 = 2131034119;
+			
+			// aapt resource value: 0x7f050002
+			public const int textDisplay = 2131034114;
+			
+			// aapt resource value: 0x7f050000
+			public const int textView1 = 2131034112;
+			
+			// aapt resource value: 0x7f050006
+			public const int textView2 = 2131034118;
+			
+			// aapt resource value: 0x7f050008
+			public const int textView3 = 2131034120;
 			
 			static Id()
 			{
@@ -76,7 +104,13 @@ namespace iFasting
 			public const int calendar = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int Main = 2130837505;
+			public const int fidyah = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int Main = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int manageFast = 2130837507;
 			
 			static Layout()
 			{

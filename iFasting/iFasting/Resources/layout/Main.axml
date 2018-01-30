@@ -17,4 +17,10 @@
         android:layout_height="wrap_content"
         android:id="@+id/button2"
         android:typeface="monospace" />
+    <Button
+        android:text="Fidyah Calculation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:typeface="monospace" />
 </LinearLayout>

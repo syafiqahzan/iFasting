@@ -59,6 +59,7 @@
   <ItemGroup>
     <Compile Include="calendarActivity.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="manageFastActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -68,6 +69,12 @@
     <None Include="Properties\AndroidManifest.xml" />
     <None Include="Assets\AboutAssets.txt" />
     <AndroidResource Include="Resources\layout\calendar.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\manageFast.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\fidyah.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

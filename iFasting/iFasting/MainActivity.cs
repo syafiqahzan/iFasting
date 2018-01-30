@@ -22,6 +22,13 @@ namespace iFasting
                  StartActivity(nextActivity);
 
              };
+            var button2 = FindViewById<Button>(Resource.Id.button1);
+            button2.Click += (s, e) =>
+            {
+                Intent nextActivity = new Intent(this, typeof(manageFastActivity));
+                StartActivity(nextActivity);
+
+            };
 
         }
     }
